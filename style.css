@@ -1,0 +1,293 @@
+/* Home Page **********************************************************/
+.navbar{
+background-color:#3700B3 ! important;
+
+}
+
+.nav-link{
+    color: white ! important;
+    font-weight: Bold ! important;
+}
+.flexcontainer{
+    display:flex;
+    background-color:lightblue;
+    padding-top:20px;
+    width: auto;
+    margin: 10px;
+    
+    
+}
+.principalpic{
+    padding-left:10px !important;
+    
+}
+
+.principalmsg{
+    padding-right:10px;
+    padding-left:20px;
+    
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+margin-bottom:0;
+}
+/* Contact Page *************************************************************/
+#contactpage {
+        background-color: lightblue;
+}
+#contactheading {
+    background-color:#3700B3;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+
+/*
+#contactpage .contactus{
+    line-height: 20px;
+}*/
+#form{
+    background-color: lightblue;
+}
+.tableheading{
+    text-align: center;
+    font-size: xx-large;
+    width: 1350px;
+}
+
+.nav-item:hover {
+background-color:lightblue;
+color:black;
+border-radius: 10px;
+}
+/*Faculty Page******************************************************/
+#facheading{
+    background-color: darkblue;
+    color: white;
+    width: 1350px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#primarysec {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+#facpic1{
+    padding-left: 10px;
+}
+#prifac {
+    padding-left: 10px;
+}
+
+#scisec{
+    display:flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;    
+}
+#facpic2{
+    padding-left: 10px;
+}
+#scifac {
+    padding-left: 10px;
+}
+
+#artsec{   
+    display:flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px; 
+}
+#facpic3 {
+        padding-left: 10px;
+    }
+#artfac {
+        padding-left: 10px;
+    }
+    
+
+#sposec{
+    display:flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px; 
+}
+#facpic4 {
+        padding-left: 10px;
+    }
+#spofac {
+        padding-left: 10px;
+    }
+
+
+/* Primary,Olevel, alevel addinfo contactus Page********************************************************/
+#primary1, #olevel, #alevel #addinfo {
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#alevel{
+    background-color: lightblue;
+}
+#container1, #container2, #container3, #container   {
+background-color: lightblue;
+width:800px;
+margin-left:auto;
+margin-right:auto;
+float:left;
+}
+
+#header1, #header2, #header3, #header {
+background-color: blue;
+color:seashell;
+text-align:center;
+}
+
+#content1, #content2, #content3, #content  {
+text-align:justify;
+background-color:lightblue;
+
+}
+#navi1, #navi2, #navi3, #navi {
+width:180px;
+float:left;
+
+}
+
+#main1, #main2, #main3, #main3 {
+width:800px;
+float:left;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 0px;
+}
+#footer1, #footer2, #footer3, #footer3, #footer {
+clear:both;
+padding:10px;
+background-color:blue;
+color: white;
+text-align: right;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+.select {
+font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+#navi1 ul, #navi2 ul, #navi3 ul, #navi ul {
+    list-style:none;
+    padding:0;
+}
+/* Silder****************************************************************/
+#carouselExampleControls {
+    float: right;
+    width:530px;
+}
+/* Nagigation Bar *******************************************************/
+
+
+#navibar{
+    color:white;
+    background-color:#3700B3;
+    font-size: large;
+    width: 1350px;
+    height: 50px;
+    text-align:end;
+    }
+#navibar-item{
+    font-size: large;
+    width: 800px;
+    height: 50px;
+    float: right;
+    text-align:bottom;
+    padding-right: 20px;
+    margin-top: 10px;
+
+}
+#navilogo{
+    float:left;
+    height: 50px;
+}
+
+#naviheading{
+    color:white;
+    background-color:#3700B3;
+    font-size: xx-large;
+    width: auto;
+    float:left;
+    height: 50px;
+}
+/* Dropdown***********************************************/
+.navidropbtn {
+    background-color:#3700B3;
+    color: white;
+    /*
+    padding: 16px;*/
+    font-size:large;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .navidropdown {
+    position: relative;
+    display: inline-block;
+      }
+  
+  .navidropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(6, 124, 170, 0.336);
+    z-index: 1;
+    background-color: lightblue;
+  }
+  
+  .navidropdown-contents a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: large;
+    
+
+  }
+  
+  .navidropdown-contents a:hover {
+      background-color:lightblue;
+      border-radius:10px;
+
+    }
+  
+  .navidropdown:hover .navidropdown-contents {
+    display: block;
+    background-color: white;
+    font-size: small;
+    text-align:left;
+    border-radius:10px;
+  }
+  
+  .navidropdown:hover .navidropbtn {
+    background-color:lightblue;
+    border-radius:10px;
+  }
+  .navihome:hover {
+    background-color:lightblue;
+    border-radius:10px;
+
+  }

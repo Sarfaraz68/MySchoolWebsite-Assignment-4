@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body id="form" class=form1>
+    <div id="navibar">
+        <div id="navibar-item">
+            <img src="Images/home.png">
+            <a class="navihome" style="color:white" href="index.html">Home</a>
+            <div class="navidropdown">
+                <button class="navidropbtn">Section</button>
+                <div class="navidropdown-contents">
+                    <a href="primary.html">Primary</a>
+                    <a href="olevel.html">O-Level</a>
+                    <a href="alevel.html">A-Level</a>
+                </div>
+            </div>
+
+            <div class="navidropdown">
+                <button class="navidropbtn">Admission</button>
+                <div class="navidropdown-contents">
+                    <a href="addinfo.html">Information</a>
+                    <a href="Form.html">Form</a>
+                </div>
+            </div>
+            <a class="navihome" style="color:white" href="faculty.html">Faculty</a>
+            <a class="navihome" style="color:white" href="contactus.html">Contact Us</a>
+
+        </div>
+
+        <div id="navilogo">
+            <img src="Images/logo3.png">
+        </div>
+
+        <div id="naviheading">
+            My School
+        </div>
+    </div>
+    <div class="tableheading">
+        <p>STUDENT REGISTRATION FORM</p>
+    </div>
+<center>
+        <table class="table1" border="0" width="900">
+            <form action="">
+                <tr>
+                    <td width="80">
+                        <p>First Name</p>
+                    </td>
+                    <td width="500">
+                        <p><input type="text" name="firstname" size="30" maxlength="30" placeholder="First Name" />(max
+                            30 characters a-z and A-Z) </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Last Name</p>
+                    </td>
+                    <td>
+                        <p><input type="text" name="lastname" size="30" maxlength="30" placeholder="Last Name" />(max 30
+                            characters a-z and A-Z) </p>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <p>Date of Birth</p>
+                    </td>
+                    <td>
+                        <p><input type="Date" name="dateofbirth" /></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Email ID</p>
+                    </td>
+                    <td>
+                        <p><input type="email" name="email" /> </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Gender</p>
+                    </td>
+                    <td>
+                        <p><input type="radio" name="gender" value="Male" /> Male <input type="radio" name="gender"
+                                value="Female" />Female</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Mobile Number</p>
+                    </td>
+                    <td>
+                        <p><input type="text" name="mobile" size="10" maxlength="10" /> (10 digit number)</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Address</p>
+                    </td>
+                    <td>
+                        <p> <textarea name="address" cols="20" rows="4"></textarea> </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>City</p>
+                    </td>
+                    <td>
+                        <p><input type="text" name="city" size="30" maxlength="30" />(max 30 characters a-z and A-Z)
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Pin Code</p>
+                    </td>
+                    <td>
+                        <p><input type="text" name="pincode" size="6" maxlength="30" />(6 digits number) </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>State</p>
+                    </td>
+                    <td>
+                        <p><input type="text" name="state" size="30" maxlength="30" />(max 30 characters a-z and A-Z)
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Country</p>
+                    </td>
+                    <td>
+                        <p><input type="text" name="country" size="30" maxlength="30" /></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Hobbies</p>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="checkbox" name="hobbies" value="Drawing" /> Drawing
+                            <input type="checkbox" name="hobbies" value="Singing" />Singing
+                            <input type="checkbox" name="hobbies" value="Dancing" /> Dancing <br>
+                            <input type="checkbox" name="hobbies" value="Other" />Others <input type="text" name="other"
+                                size="20" maxlength="100"></textarea>
+                        </p>
+                    </td>
+                </tr>
+
+
+
+        </table>
+        <table border="0" width="900">
+            <td>
+                <p>Applied For Admission in:</p>
+            </td>
+            <td align="left" colspan="6">
+                <p> <input type="radio" name="course" value="Primary" />Primary
+                    <input type="radio" name="course" value="O-Level" />O-Level
+                    <input type="radio" name="course" value="A-Level." />A-Level
+                </p>
+            </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="6">
+                    <p>
+                        <input type="submit" />
+                        <input type="reset" />
+                    </p>
+                </td>
+
+
+
+
+
+            </tr>
+            </form>
+        </table>
+    </center>
+
+</body>
+
+</html>
